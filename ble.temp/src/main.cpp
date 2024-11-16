@@ -29,8 +29,8 @@ float t = 0.0;
 float h = 0.0;
 
 // WiFi credentials
-const char* targetSSID = "Smilepls";
-const char* targetPassword = "10203040";
+const char* targetSSID = "";
+const char* targetPassword = "";
 const char* mqttServer = "restdev.boodskap.io";  // Change this to your MQTT broker
 const int mqttPort = 1883;  // MQTT default port
 const char* mqttTopic = "/P85TRMALUS6JJJI7/AA0012/pub/0";  // MQTT topic to publish data
